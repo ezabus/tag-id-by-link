@@ -23,7 +23,7 @@ module.exports = {
       user: 'ezabus',
       host: ['fishburgfootball.ru'],
       ref: 'origin/master',
-      repo: 'git@github.com:ezabus/current-round.git',
+      repo: 'git@github.com:ezabus/tag-id-by-link.git',
       path: '/home/ezabus/microservices/tagid',
       'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js --env production'
     }
